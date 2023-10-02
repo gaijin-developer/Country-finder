@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+#countriesContainer {
+  list-style: none;
+  padding: 0;
+}
+.generalContainer {
+  max-width: 40rem;
+}
+#searchContainer {
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.3em;
+}
+.main-heading {
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgb(167, 167, 167);
+  /* color: white; */
+}
+#searchButton,
+#allCountriesButton {
+  background-color: blue;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.3em;
+}
+#searchButton {
+  width: 27%;
+}
+#allCountriesButton {
+  width: 100%;
+}
+#inputSec {
+  font-size: 1.1rem;
+  padding: 0.5em;
+  width: 65%;
+}
+.countryCard {
+  margin: 1em 0;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #909090;
+}
+
+.countryCapital {
+  margin: 0;
+  border-bottom: 2px solid blue;
+  border-radius: 10px;
+  padding: 0.3em;
+}
+@media (min-width: 666px) {
+  #allCountriesButton {
+    width: 100%;
+  }
+  /* #searchButton {
+    width: 30%;
+  } */
+}
